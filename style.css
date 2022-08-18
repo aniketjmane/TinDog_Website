@@ -1,0 +1,140 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* header_section */
+.header {
+    background-color: #ff4c68 ;
+    padding: 3% 15%;
+    max-height: 60vh;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-link {
+    color: papayawhip !important;
+}
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.heading_text {
+    font-size: 2.2rem;
+    color: white;
+}
+.row {
+    padding: 1.5rem 1.5rem;
+}
+.title_img {
+    width: 60%;
+    transform: rotate(20deg);
+}
+
+/* <!-- feature --> */
+.feature_section {
+    padding: 8%;
+    text-align: center;
+    position: relative;
+    background-color: white;
+}
+.main_qlt {
+    font-size: larger;
+}
+.sub_qly {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: darkgray;
+}
+
+/* carousel */
+.slide-img {
+    height: 6rem;
+    border-radius: 10rem;
+    margin: 0px auto;
+}
+.testimonials {
+    background-color: salmon;
+    text-align: center;
+}
+.carousel-item {
+    padding: 8%;
+}
+.slide-text {
+    color: white;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+.companies_img {
+    padding: 0% 5% 5% 5%;
+}
+.bussiness_img {
+    width: 17%;
+}
+
+/* pricing */
+.pricing_section {
+    padding: 5% 8%;
+
+
+}
+.sub_plan {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    color: darkgray;
+}
+
+.card-header {
+    font-size: larger;
+    text-align: center;
+}
+.card-title {
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.card-text {
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    color: darkgray;
+}
+.signup_button {
+    width: 100%;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* footer_section */
+.last_secion {
+    background-color: #ff4c68;
+    padding: 8% 10%;
+    text-align: center;
+}
+.footer_section {
+    padding: 5%;
+    text-align: center;
+}
+.copyright {
+    font-size: 0.8rem;
+    color: darkgray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* media-queries */
+@media (max-width: 992px) {
+    .row {
+        text-align: center;
+    }
+    .title_img {
+        display: none;
+        /* position: static;
+        transform: rotate(0deg);
+        width: 50%;
+        margin-top: 3rem; */
+    }
+}
